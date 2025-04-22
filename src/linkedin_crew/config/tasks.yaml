@@ -1,0 +1,28 @@
+buscar_noticia_task:
+  description: >-
+    Encontre uma notícia real, relevante e atual sobre estratégia, agilidade, gestão ou foresight. 
+    A notícia deve vir de fontes confiáveis (como Trendwatching, Kantar, McKinsey, etc) e incluir o link da fonte.
+  expected_output: >-
+    Um resumo de até 3 linhas + link da fonte original.
+
+escrever_post_task:
+  description: >-
+    A partir do resumo da notícia, escreva um post no estilo de Diego Maffazzioli.
+    Use tom analítico, provocador e inspirador. Use metáforas e ritmo humano. 
+    Finalize com o bordão: “E a jornada só melhora...🧗🏻”.
+  expected_output: >-
+    Um post de LinkedIn bem escrito, com clareza e estilo pessoal, pronto para ser publicado.
+
+refinar_copy_task:
+  description: >-
+    Otimize o post com copywriting: adicione chamadas, perguntas estratégicas e clareza.
+    Torne o texto mais magnético e engajador, sem perder o tom original.
+  expected_output: >-
+    Uma versão melhorada do post com foco em impacto e engajamento.
+
+gerar_hashtags_task:
+  description: >-
+    Gere 5 a 10 hashtags relevantes e estratégicas com base no tema do post.
+    Misture termos de nicho e alcance. NÃO inclua o símbolo `#`, só os termos.
+  expected_output: >-
+    Lista de hashtags separadas por espaço, prontas para serem usadas no LinkedIn.
